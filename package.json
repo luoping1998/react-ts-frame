@@ -1,0 +1,38 @@
+{
+  "name": "react-ts-frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --hot --open --config scripts/webpack.dev.conf.js"
+  },
+  "author": "luoping",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "style-loader": "^0.23.1",
+    "ts-lint": "^4.5.1",
+    "tslint": "^5.14.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3333",
+    "uglify-js": "^3.4.10",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  }
+}

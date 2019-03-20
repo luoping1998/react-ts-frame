@@ -1,0 +1,11 @@
+node_modules
+
+dist
+
+*.log
+
+yarn.lock
+packge-lock.json
+
+.idea/
+.DS_Store
