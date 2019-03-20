@@ -1,6 +1,10 @@
-// const CleanWebpackPlugin = require('clean-webpack-plugin');
+const htmlPlugin = require('html-webpack-plugin');
+
 const { resolve } = require('path');
 module.exports = {
+    entry: {
+        index: resolve(__dirname, '../src/index.tsx')
+    },
     resolve: {
         extensions: [".tsx", ".ts", ".js", ".json"]
     },
@@ -27,5 +31,11 @@ module.exports = {
                 ]
             }
         ]
-    }
+    },
+    plugins: [
+        new htmlPlugin({
+            filename: 'index.html',
+            template: resolve(__dirname, '../index.html') 
+        })
+    ],
 }
