@@ -1,14 +1,27 @@
 {
   "name": "react-ts-frame",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个手搭的react、typescript、less、tslint、webpack的脚手架，暂时用于自己使用🤦‍♀",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --open --config scripts/webpack.dev.conf.js",
     "build": "webpack --progress --config scripts/webpack.prod.conf.js"
   },
-  "author": "luoping",
+  "author": "luoping1998 [github] <632694871@qq.com>",
+  "bugs": {
+    "url": "https://github.com/luoping1998/react-ts-frame/issues"
+  },
+  "homepage": "https://github.com/luoping1998/react-ts-frame",
+  "keywords": [
+    "react",
+    "typescript",
+    "less"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luoping1998/react-ts-frame"
+  },
   "license": "ISC",
   "dependencies": {
     "@types/react": "^16.8.8",
